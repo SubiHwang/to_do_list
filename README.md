@@ -19,10 +19,9 @@ todos = todos.map(originalTodo => {
             if (originalTodo.id === todo.id) 
             originalTodo.isCompleted = !originalTodo.isCompleted;
             return originalTodo;
-        }) ```
-   
-       
-   ```todos = todos.map(originalTodo => originalTodo.id === todo.id ?originalTodo.isCompleted = !originalTodo.isCompleted : originalTodo
+        }) 
+        
+ todos = todos.map(originalTodo => originalTodo.id === todo.id ?originalTodo.isCompleted = !originalTodo.isCompleted : originalTodo
    ```
    사용
     
