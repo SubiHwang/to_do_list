@@ -27,7 +27,7 @@ todos = todos.map(originalTodo => {
    사용
     
 4번
-```
+```javascript
 const doTrimValue = (val) =>{ 
     const trimVal = String(val).trim(); // string으로 형 변환 후, 공백 제거
     if( trimVal !== ''){ // 빈 문자열이 아니면
